@@ -13,10 +13,6 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Bingie Toolbox</summary>
         <description>Toolbox for Bingie skin.</description>
-<news>
-v1.0.0
-- Initial release
-</news>
 		<assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>

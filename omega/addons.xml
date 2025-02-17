@@ -25,15 +25,15 @@
 </addon>
 
 <!-- BINGIE -->
-<addon id="skin.bingie" version="1.0.1" name="Bingie" provider-name="matke">
+<addon id="skin.bingie" version="1.0.2" name="Bingie" provider-name="matke">
 	<requires>
 		<import version="5.17.0" addon="xbmc.gui"/>
 		<import addon="script.bingie.helper" version="1.1.2"/>
 		<import addon="script.bingie.toolbox" version="1.0.0"/>
-		<import addon="script.bingie.widgets" version="1.0.0"/>
+		<import addon="script.bingie.widgets" version="1.0.1"/>
 		<import addon="script.skinshortcuts" version="2.0.3"/>
 		<import addon="resource.images.studios.coloured" version="0.0.23" />
-		<import addon="plugin.video.themoviedb.helper" version="5.4.21" />
+		<import addon="plugin.video.themoviedb.helper" version="5.5.0" />
 		<import addon="script.wikipedia" version="0.0.6" />
 		<import addon="plugin.program.autocompletion" version="2.1.3" />
 	</requires>
@@ -56,7 +56,7 @@
 
 <!-- PLUGINS -->
 <addon id="plugin.video.themoviedb.helper"
-version="5.4.21"
+version="5.5.0"
 name="TMDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -64,7 +64,7 @@ provider-name="jurialmunkey">
   <import addon="script.module.requests" version="2.9.1"/>
   <import addon="script.module.pil" version="1.1.7"/>
   <import addon="script.module.addon.signals" version="0.0.6" />
-  <import addon="script.module.jurialmunkey" version="0.2.4" />
+  <import addon="script.module.jurialmunkey" version="0.2.8" />
   <import addon="script.module.infotagger" version="0.0.5" />
   <import addon="script.module.beautifulsoup4" version="4.9.3" />
 </requires>
@@ -141,7 +141,7 @@ provider-name="jurialmunkey">
 	</extension>
 </addon>
 
-    <addon id="script.bingie.toolbox" name="Bingie Toolbox" version="1.0.0" provider-name="matke">
+<addon id="script.bingie.toolbox" name="Bingie Toolbox" version="1.0.0" provider-name="matke">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -155,10 +155,6 @@ provider-name="jurialmunkey">
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Bingie Toolbox</summary>
         <description>Toolbox for Bingie skin.</description>
-<news>
-v1.0.0
-- Initial release
-</news>
 		<assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
@@ -172,7 +168,7 @@ v1.0.0
     </extension>
 </addon>
 
-<addon id="script.bingie.widgets" name="Bingie Widgets" version="1.0.0" provider-name="matke">
+<addon id="script.bingie.widgets" name="Bingie Widgets" version="1.0.1" provider-name="matke">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -189,10 +185,6 @@ v1.0.0
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Bingie Widgets</summary>
         <description>Widgets for Bingie skin.</description>
-<news>
-Version 1.0.0
-- Initial release
-</news>
 		<assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
@@ -310,7 +302,7 @@ provider-name="jurialmunkey">
 
 </addon>
 
-<addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.7">
+<addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.9">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
     <import addon="script.module.requests" version="2.9.1"/>
