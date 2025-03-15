@@ -25,7 +25,7 @@
 </addon>
 
 <!-- BINGIE -->
-<addon id="skin.bingie" version="1.0.4" name="Bingie" provider-name="matke">
+<addon id="skin.bingie" version="1.0.5" name="Bingie" provider-name="matke">
 	<requires>
 		<import version="5.17.0" addon="xbmc.gui"/>
 		<import addon="script.bingie.helper" version="1.1.2"/>
@@ -33,7 +33,7 @@
 		<import addon="script.bingie.widgets" version="1.0.1"/>
 		<import addon="script.skinshortcuts" version="2.0.3"/>
 		<import addon="resource.images.studios.coloured" version="0.0.23" />
-		<import addon="plugin.video.themoviedb.helper" version="5.5.10" />
+		<import addon="plugin.video.themoviedb.helper" version="5.5.14" />
 		<import addon="script.wikipedia" version="0.0.6" />
 		<import addon="plugin.program.autocompletion" version="2.1.3" />
 	</requires>
@@ -56,7 +56,7 @@
 
 <!-- PLUGINS -->
 <addon id="plugin.video.themoviedb.helper"
-version="5.5.10"
+version="5.5.14"
 name="TMDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -302,7 +302,7 @@ provider-name="jurialmunkey">
 
 </addon>
 
-<addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.18">
+<addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.20">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
     <import addon="script.module.requests" version="2.9.1"/>
