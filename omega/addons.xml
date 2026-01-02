@@ -25,7 +25,7 @@
 </addon>
 
 <!-- BINGIE -->
-<addon id="skin.bingie" version="2.0.0" name="Bingie" provider-name="matke">
+<addon id="skin.bingie" version="2.0.1" name="Bingie" provider-name="matke">
 	<requires>
 		<import version="5.17.0" addon="xbmc.gui"/>
 		<import addon="script.bingie.helper" version="1.1.2"/>
@@ -33,7 +33,7 @@
 		<import addon="script.bingie.widgets" version="1.0.1"/>
 		<import addon="script.skinshortcuts" version="2.0.3"/>
 		<import addon="resource.images.studios.coloured" version="1.0.0" />
-		<import addon="plugin.video.tmdb.bingie.helper" version="1.0.0" />
+		<import addon="plugin.video.tmdb.bingie.helper" version="1.0.1" />
 		<import addon="plugin.program.autocompletion" version="2.1.3" />
 	</requires>
 	<extension debugging="false" defaultthemename="Textures.xbt" effectslowdown="1" point="xbmc.gui.skin">
@@ -57,7 +57,7 @@
 
 <!-- PLUGINS -->
 <addon id="plugin.video.tmdb.bingie.helper"
-version="1.0.0"
+version="1.0.1"
 name="TMDb Bingie Helper"
 provider-name="jurialmunkey,matke">
 <requires>
@@ -263,25 +263,6 @@ provider-name="jurialmunkey,matke">
 </addon>
 	
 <!-- MODULES -->
-<addon id="script.module.infotagger" name="InfoTagger" provider-name="jurialmunkey" version="0.0.8">
-  <requires>
-    <import addon="xbmc.python" version="3.0.1"/>
-  </requires>
-  <extension point="xbmc.python.module" library="resources/modules" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en_GB">Python wrapper for setInfo on Nexus InfoTags</summary>
-    <description lang="en_GB">Python wrapper for setInfo on Nexus InfoTags</description>
-    <license>GPL-3.0-or-later</license>
-    <website>https://github.com/jurialmunkey/script.module.infotagger</website>
-    <source>https://github.com/jurialmunkey/script.module.infotagger</source>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-  </extension>
-
-</addon>
-
 <addon id="script.module.bingie" name="bingie common" provider-name="jurialmunkey,matke" version="1.0.0">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
@@ -300,7 +281,7 @@ provider-name="jurialmunkey,matke">
 </addon>
 
 <!-- RESOURCES -->
-<addon id="resource.images.studios.coloured" name="Studio Icons - Coloured - Modded" version="1.0.0010" provider-name="lynxstrike">
+<addon id="resource.images.studios.coloured" name="Studio Icons - Coloured - Modded" version="1.0.0012" provider-name="lynxstrike">
 	<extension point="kodi.resource.images" compile="true" type="studios" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
@@ -314,11 +295,9 @@ provider-name="jurialmunkey,matke">
 			<fanart>fanart.jpg</fanart>
 		</assets>
 		<news>
-			v1.0.0010 (2025-10-25)
-			-Logos requested by @kittmaster, part 2
-			-Logo requested by @rizreflects
-			-IMCINE, Focine
-			-Cleanup
+			v1.0.0012 (2025-12-13)
+			- Logos requested by @kittmaster, part 4
+			- Logo requested by @knedl (re-issue)
 		</news>
 	</extension>
 </addon>
