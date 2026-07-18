@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.tmdb.bingie.helper"
-version="1.0.2"
+version="1.0.3"
 name="TMDb Bingie Helper"
 provider-name="jurialmunkey,matke">
 <requires>
@@ -8,7 +8,7 @@ provider-name="jurialmunkey,matke">
   <import addon="script.module.requests" version="2.9.1"/>
   <import addon="script.module.pil" version="1.1.7"/>
   <import addon="script.module.addon.signals" version="0.0.6" />
-  <import addon="script.module.bingie" version="1.0.0" />
+  <import addon="script.module.bingie" version="1.0.1" />
   <import addon="script.module.infotagger" version="0.0.5" />
   <import addon="script.module.beautifulsoup4" version="4.9.3" />
   <import addon="script.module.qrcode" version="6.1.0" />
